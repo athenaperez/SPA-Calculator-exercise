@@ -1,0 +1,49 @@
+body {
+	font-family: sans-serif;
+}
+
+.calculator-exterior {
+	height: 400px;
+	width: 300px;
+	border: 2px black solid;
+	border-radius: 15%;
+	margin-left: 30%;
+	margin-top: 5%;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	background-color: tomato;
+	padding-top: 2%;
+}
+
+#input-one {
+	display: inline-block;
+	margin: 10% auto auto 10%;
+}
+
+#input-two {
+	display: inline-block;
+	margin: 10% auto auto 10%;
+}
+
+input {
+	height: 50px;
+	width: 70px;
+	box-shadow: 3px 4px 1px 0px rgba(0,0,0,0.2);
+}
+
+#buttons {
+	display: block;
+	margin: 5% auto auto 10%;
+}
+
+button {
+	margin: 2%;
+	box-shadow: 3px 4px 1px 0px rgba(0,0,0,0.2);
+	border-radius: 20%;
+	height: 30px;
+	width: 30px;
+	font-size: 1em;
+}
+
+#output-box {
+	margin: 10% auto auto 10%;
+}
